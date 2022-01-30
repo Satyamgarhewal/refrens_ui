@@ -1,0 +1,42 @@
+.searchbarStyle {
+  height: 3.2rem;
+  width: 100%;
+  font-size: 1rem;
+  background-image: url(https://cdn2.hubspot.net/hubfs/4004166/bioticresearch_website_assets/images/search_icon.png);
+  background-repeat: no-repeat;
+  padding-left: 2.5rem;
+  background-color: #fff;
+  border: transparent;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.searchBarCover {
+  margin-top: 1rem;
+}
+.searchbarStyle:focus {
+  outline: none !important;
+  border-color: #719ece;
+  /* box-shadow: 0 0 0.6re; */
+  box-shadow: 0px 5px 15px #719ece;
+}
+
+.searchResult {
+  cursor: pointer;
+  background-color: white;
+  height: 12.5rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+.searchResult :hover {
+  background-color: #fefedd;
+}
+
+.searchResult::-webkit-scrollbar {
+  display: none;
+}
+
+.searchResult.active,
+.searchResult:hover {
+  background: #d3d3d33b;
+}
